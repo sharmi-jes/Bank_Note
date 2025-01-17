@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Note Authentication</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 50px 0;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        header h1 {
+            font-size: 48px;
+            color: #4CAF50;
+        }
+        .about-section {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 50px;
+        }
+        .about-section h2 {
+            font-size: 36px;
+            color: #333;
+            text-align: center;
+        }
+        .about-section p {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: justify;
+            color: #555;
+        }
+        .cta-button {
+            display: block;
+            width: 250px;
+            margin: 40px auto;
+            padding: 15px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Bank Note Authentication</h1>
+        </header>
+
+        <div class="about-section">
+            <h2>About Bank Note Authentication</h2>
+            <p>Bank note authentication is a crucial process to ensure that the currency in circulation is genuine. With the advancement of technology, counterfeiters have become more sophisticated, and thus, it is essential to have reliable methods to detect fake currency. This application uses machine learning to classify bank notes as either real or fake based on specific features extracted from the bank note images.</p>
+            <p>We employ a dataset with features like the variance of Wavelet Transformed images (VWTI, SWTI, CWTI), entropy (EI), and other properties to predict whether a note is authentic or counterfeit. By leveraging machine learning algorithms, we can accurately predict the authenticity of a bank note and ensure the integrity of currency circulation.</p>
+        </div>
+
+        <a href="/predict" class="cta-button">Try the Prediction Now</a>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Bank Note Authentication. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
